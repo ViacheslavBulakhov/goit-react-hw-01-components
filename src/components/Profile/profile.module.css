@@ -1,0 +1,62 @@
+.profile{
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(0 0 0 / 20%);
+    box-shadow: 0px 0px 10px 1px rgba(156,153,156,0.71);
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.name{
+    font-weight: bold;
+}
+.profile>div {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.profile>div>p{
+    color: #7e7c7c;
+}
+.profile>div>p.name{
+    color: black;
+    font-weight: bold;
+}
+.avatar{
+    border-radius: 50%;
+    border: 1px solid red;
+    max-width: 200px;
+
+}
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #ECEFF1;
+    border-radius: 0 0 10px 10px;
+}
+.stats>li{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+border: 1px solid rgb(0 0 0 / 20%);
+}
+.stats>li:first-child{
+    border-radius: 0 0 0 10px;
+}
+.stats>li:last-child{
+    border-radius: 0 0 10px 0;
+}
+.stats>li.span{
+    color: #7e7c7c;
+}
+.stats>li>span:last-child{
+    color:black;
+    font-weight: bold;
+}
