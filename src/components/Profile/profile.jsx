@@ -31,6 +31,7 @@ return (
                 <span className="quantity">{validator(likes)}</span>
             </li>
             </ul>
+
             </div>
         )
 }
