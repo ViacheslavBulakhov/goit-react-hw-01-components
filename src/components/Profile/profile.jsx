@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import css from './profile.module.css'
+import css from './Profile.module.css'
 import validator from '../utils/validNumber'
 
 export default function Profile({ username, tag, location, avatar, followers, views, likes }){
