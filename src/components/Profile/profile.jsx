@@ -35,6 +35,7 @@ return (
             </div>
         )
 }
+
 Profile.propTypes = {
     username: PropTypes.string,
     tag: PropTypes.string,
