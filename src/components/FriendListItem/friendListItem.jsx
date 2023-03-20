@@ -1,4 +1,4 @@
-import css from './FriendListItem.module.css';
+import css from 'components/FriendListItem/FriendListItem.module.css';
 import PropTypes from 'prop-types';
 
 export default function FriendListItem({ avatar, name, isOnline }) {

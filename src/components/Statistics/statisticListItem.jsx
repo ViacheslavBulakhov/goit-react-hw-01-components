@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import getRandomHexColor from '../utils/generateColor';
+import getRandomHexColor from 'utils/generateColor';
 
 export default function StatisticsListElement({ label, percentage }) {
   return (

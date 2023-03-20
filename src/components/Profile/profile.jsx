@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
-import css from './Profile.module.css';
-import validator from '../utils/validNumber';
+import css from 'components/Profile/Profile.module.css';
+import validator from 'utils/validNumber';
 
 export default function Profile({ username, tag, location, avatar, stats }) {
   const { followers, views, likes } = stats;
@@ -41,5 +41,5 @@ Profile.propTypes = {
     followers: PropTypes.number.isRequired,
     views: PropTypes.number.isRequired,
     likes: PropTypes.number.isRequired,
-  }),
+  }).isRequired,
 };
